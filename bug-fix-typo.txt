@@ -1,0 +1,25 @@
+theia@theia-vladpreda:/home/project/mcino-Introduction-to-Git-and-GitHub$ git revert --continue
+[bug-fix-revert 865543a] Revert "Initial commit"
+ 3 files changed, 1 insertion(+), 331 deletions(-)
+ delete mode 100644 .gitignore
+ delete mode 100644 LICENSE
+theia@theia-vladpreda:/home/project/mcino-Introduction-to-Git-and-GitHub$ cat README.md
+# Introduction to Git and GitHub
+
+## Simple Interest Calculator
+
+A calculator that calculates simple interest given principal, annual rate of interest and time period in years.
+
+```
+Input:
+   p, principal amount
+   t, time period in years
+   r, annual rate of interest
+Output
+   simple interest = p*t*r
+```
+
+_© 2022 XYZ, Inc._
+
+theia@theia-vladpreda:/home/project/mcino-Introduction-to-Git-and-GitHub$ curl -s https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/6605 | jq -r '.head.repo.clone_url'
+https://github.com/vlad8bani/mcino-Introduction-to-Git-and-GitHub.git
