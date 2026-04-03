@@ -1,0 +1,4 @@
+theia@theia-vladpreda:/home/project/mcino-Introduction-to-Git-and-GitHub$ git branch -vv
+  bug-fix-revert 865543a [origin/bug-fix-revert] Revert "Initial commit"
+  bug-fix-typo   c14f228 updated README.md to 2023
+* main           865543a [origin/main] Revert "Initial commit"
